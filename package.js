@@ -6,7 +6,7 @@ Package.on_use(function (api) {
   api.use('jquery');
 
   var path = Npm.require('path');
-  var asset_path = path.join('aleritfy');
+  var asset_path = path.join('alertify');
   api.add_files(path.join(asset_path, 'css', 'alertify.core.css'), 'client');
   api.add_files(path.join(asset_path, 'css', 'alertify.bootstrap3.css'), 'client');
 
