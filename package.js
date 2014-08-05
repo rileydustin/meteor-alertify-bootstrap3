@@ -5,10 +5,8 @@ Package.describe({
 Package.on_use(function (api) {
   api.use('jquery');
 
-  var path = Npm.require('path');
-  var asset_path = path.join('alertify');
-  api.add_files(path.join(asset_path, 'css', 'alertify.core.css'), 'client');
-  api.add_files(path.join(asset_path, 'css', 'alertify.bootstrap3.css'), 'client');
+  api.add_files('css/alertify.core.css', 'client');
+  api.add_files('css/alertify.bootstrap3.css', 'client');
 
-  api.add_files(path.join(asset_path, 'js', 'alertify.min.js'), 'client');
+  api.add_files('js/alertify.min.js', 'client');
 });
