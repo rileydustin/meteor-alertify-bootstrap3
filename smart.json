@@ -1,0 +1,9 @@
+{
+  "name": "alertify bootstrap 3",
+  "description": "styled alertify alerts for meteor",
+  "homepage": "https://github.com/rileydustin/meteor-alertify-bootstrap3",
+  "author": "rileydustin",
+  "version": "0.3.11",
+  "git": "https://github.com/rileydustin/meteor-alertify-bootstrap3.git",
+  "packages": { }
+}
